@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
-	grunt.loadNpmTasks('grunt-bower-concat');
+	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');	
+	grunt.loadNpmTasks('grunt-contrib-uglify');	
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
@@ -24,7 +25,7 @@ module.exports = function(grunt) {
 						'foundation-interchange/js/foundation.js',
 						'foundation-interchange/js/foundation.interchange.js'
 					],
-				dest: 'foundation-interchange/js/foundation-interchange.js',
+				dest: 'dist/foundation-interchange.js',
 			}
 		},
 
@@ -34,9 +35,10 @@ module.exports = function(grunt) {
 				banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
 				'<%= grunt.template.today("yyyy-mm-dd") %> */ \n',
 			},
-			
-			files: {
-				'dist/foundation-interchange.min.js' : 'foundation-interchange/js/foundation-interchange.js'
+			my_target: {
+				files: {
+					'dist/foundation-interchange.min.js' : 'dist/foundation-interchange.js'
+				}
 			}
 		}
 		
