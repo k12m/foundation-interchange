@@ -1,0 +1,25 @@
+{
+  "name": "foundation-interchange",
+  "authors": [
+    "k12m <info@k12m.it>"
+  ],
+  "description": "Stripped-down version of Foundation to include only Interchange",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "\"interchange\"",
+    "\"foundation\""
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/k12m/foundation-interchange",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}
