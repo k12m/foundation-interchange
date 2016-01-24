@@ -1,4 +1,4 @@
-/*! foundation-interchange - v1.0.0 - 2016-01-22 */
+/*! foundation-interchange - v1.0.0 - 2016-01-24 */
 (function ($, window, document, undefined) {
   'use strict';
 

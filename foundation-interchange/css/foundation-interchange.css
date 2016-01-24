@@ -1,3 +1,6 @@
+meta.foundation-version {
+  font-family: "/5.5.3/"; }
+
 meta.foundation-mq-small {
   font-family: "/only screen/";
   width: 0; }
@@ -33,3 +36,7 @@ meta.foundation-mq-xlarge-only {
 meta.foundation-mq-xxlarge {
   font-family: "/only screen and (min-width:120.0625em)/";
   width: 120.0625em; }
+ 
+meta.foundation-data-attribute-namespace {
+  font-family: false; }
+

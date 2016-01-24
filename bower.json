@@ -4,11 +4,11 @@
     "k12m <info@k12m.it>"
   ],
   "description": "Stripped-down version of Foundation to include only Interchange",
-  "main": "",
+  "main": "dist/foundation-interchange.min.js",
   "moduleType": [],
   "keywords": [
-    "\"interchange\"",
-    "\"foundation\""
+    "interchange",
+    "foundation"
   ],
   "license": "MIT",
   "homepage": "https://github.com/k12m/foundation-interchange",
